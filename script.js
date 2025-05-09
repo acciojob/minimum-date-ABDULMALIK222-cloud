@@ -38,3 +38,4 @@ var dates = [
 ];
 
 alert(minDate(dates));
+console.log(minDate(date[0]));
