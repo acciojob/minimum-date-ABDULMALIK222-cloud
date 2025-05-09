@@ -1,9 +1,8 @@
 function minDate(dates) {
-	return dates.reduce(function(min,curr)){
-		return curr < min ? curr : min;
-	});
-	
-  //write you code here
+  // Return the minimum date using lexicographic comparison
+  return dates.reduce(function(min, curr) {
+    return curr < min ? curr : min;
+  });
 }
 
 // Do not change the code
